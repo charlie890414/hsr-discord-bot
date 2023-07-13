@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "star-rail"
+version = "0.1.0"
+description = ""
+authors = ["charlie890414"]
+readme = "README.md"
+packages = [{include = "star_rail"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+"discord.py" = "^2.3.1"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
